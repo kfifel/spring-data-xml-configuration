@@ -13,6 +13,18 @@ public class Employee {
     private Long id;
     private String username;
 
+    public Employee() {
+    }
+
+    public Employee(String username) {
+        this.username = username;
+    }
+
+    public Employee(Long id, String username) {
+        this.id = id;
+        this.username = username;
+    }
+
     public Long getId() {
         return id;
     }
